@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A339BA2CE0CDB470B4F460C /* Pods_MotMystere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F89FB6505D17C0E9025BF39 /* Pods_MotMystere.framework */; };
+		E2311BB924C4ABDD001531AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2311BB824C4ABDD001531AB /* GoogleService-Info.plist */; };
+		E2311BBB24C4AE20001531AB /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2311BBA24C4AE20001531AB /* UserManager.swift */; };
+		E2311BBD24C4B2E8001531AB /* SecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2311BBC24C4B2E8001531AB /* SecurityManager.swift */; };
+		E2311BC224C4B969001531AB /* PickUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2311BC124C4B969001531AB /* PickUsernameViewController.swift */; };
+		E2311BC424C58E07001531AB /* PickLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2311BC324C58E07001531AB /* PickLevelViewController.swift */; };
+		E2311BC624C59051001531AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2311BC524C59051001531AB /* GameViewController.swift */; };
+		E239678F24C47CA8006D59EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239678E24C47CA8006D59EC /* AppDelegate.swift */; };
+		E239679124C47CA8006D59EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239679024C47CA8006D59EC /* SceneDelegate.swift */; };
+		E239679324C47CA8006D59EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239679224C47CA8006D59EC /* LoginViewController.swift */; };
+		E239679624C47CA8006D59EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E239679424C47CA8006D59EC /* Main.storyboard */; };
+		E239679824C47CAA006D59EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E239679724C47CAA006D59EC /* Assets.xcassets */; };
+		E239679B24C47CAA006D59EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E239679924C47CAA006D59EC /* LaunchScreen.storyboard */; };
+		E23967A824C48274006D59EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23967A724C48274006D59EC /* MapKit.framework */; };
+		E23967AB24C482F4006D59EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23967AA24C482F3006D59EC /* AudioToolbox.framework */; };
+		E2CC654024C5BD93004F2EEE /* ListOfQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC653F24C5BD93004F2EEE /* ListOfQuestions.swift */; };
+		E2CC654224C5D537004F2EEE /* correctSoundMotMystere.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2CC654124C5D537004F2EEE /* correctSoundMotMystere.wav */; };
+		E2CC654424C5E634004F2EEE /* FinalScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC654324C5E634004F2EEE /* FinalScoreViewController.swift */; };
+		E2CC654624C5E9C2004F2EEE /* GameOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC654524C5E9C2004F2EEE /* GameOptions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E3E6BA95DB585E58457886C /* Pods-MotMystere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotMystere.debug.xcconfig"; path = "Target Support Files/Pods-MotMystere/Pods-MotMystere.debug.xcconfig"; sourceTree = "<group>"; };
+		7F89FB6505D17C0E9025BF39 /* Pods_MotMystere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotMystere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2311BB824C4ABDD001531AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2311BBA24C4AE20001531AB /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		E2311BBC24C4B2E8001531AB /* SecurityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityManager.swift; sourceTree = "<group>"; };
+		E2311BC124C4B969001531AB /* PickUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUsernameViewController.swift; sourceTree = "<group>"; };
+		E2311BC324C58E07001531AB /* PickLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PickLevelViewController.swift; path = MotMystere/View/PickLevelViewController.swift; sourceTree = SOURCE_ROOT; };
+		E2311BC524C59051001531AB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = MotMystere/View/GameViewController.swift; sourceTree = SOURCE_ROOT; };
+		E239678B24C47CA8006D59EC /* MotMystere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotMystere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E239678E24C47CA8006D59EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E239679024C47CA8006D59EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E239679224C47CA8006D59EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E239679524C47CA8006D59EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E239679724C47CAA006D59EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E239679A24C47CAA006D59EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E239679C24C47CAA006D59EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23967A724C48274006D59EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E23967AA24C482F3006D59EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E2CC653F24C5BD93004F2EEE /* ListOfQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListOfQuestions.swift; path = MotMystere/Controller/ListOfQuestions.swift; sourceTree = SOURCE_ROOT; };
+		E2CC654124C5D537004F2EEE /* correctSoundMotMystere.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correctSoundMotMystere.wav; sourceTree = "<group>"; };
+		E2CC654324C5E634004F2EEE /* FinalScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FinalScoreViewController.swift; path = MotMystere/View/FinalScoreViewController.swift; sourceTree = SOURCE_ROOT; };
+		E2CC654524C5E9C2004F2EEE /* GameOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOptions.swift; sourceTree = "<group>"; };
+		F61E1C8EDD2494AF48E54453 /* Pods-MotMystere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotMystere.release.xcconfig"; path = "Target Support Files/Pods-MotMystere/Pods-MotMystere.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E239678824C47CA8006D59EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23967A824C48274006D59EC /* MapKit.framework in Frameworks */,
+				E23967AB24C482F4006D59EC /* AudioToolbox.framework in Frameworks */,
+				0A339BA2CE0CDB470B4F460C /* Pods_MotMystere.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E224E1750A5AB8E023563CA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E3E6BA95DB585E58457886C /* Pods-MotMystere.debug.xcconfig */,
+				F61E1C8EDD2494AF48E54453 /* Pods-MotMystere.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2311BBE24C4B347001531AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E239679424C47CA8006D59EC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2311BBF24C4B351001531AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2CC653F24C5BD93004F2EEE /* ListOfQuestions.swift */,
+				E2311BBC24C4B2E8001531AB /* SecurityManager.swift */,
+				E2311BBA24C4AE20001531AB /* UserManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2311BC024C4B362001531AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2CC654324C5E634004F2EEE /* FinalScoreViewController.swift */,
+				E2311BC524C59051001531AB /* GameViewController.swift */,
+				E2CC654524C5E9C2004F2EEE /* GameOptions.swift */,
+				E2311BC324C58E07001531AB /* PickLevelViewController.swift */,
+				E239679224C47CA8006D59EC /* LoginViewController.swift */,
+				E2311BC124C4B969001531AB /* PickUsernameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E239678224C47CA8006D59EC = {
+			isa = PBXGroup;
+			children = (
+				E239678D24C47CA8006D59EC /* MotMystere */,
+				E239678C24C47CA8006D59EC /* Products */,
+				E23967A624C48274006D59EC /* Frameworks */,
+				E224E1750A5AB8E023563CA0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E239678C24C47CA8006D59EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E239678B24C47CA8006D59EC /* MotMystere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E239678D24C47CA8006D59EC /* MotMystere */ = {
+			isa = PBXGroup;
+			children = (
+				E239678E24C47CA8006D59EC /* AppDelegate.swift */,
+				E239679024C47CA8006D59EC /* SceneDelegate.swift */,
+				E2311BBF24C4B351001531AB /* Model */,
+				E2311BBE24C4B347001531AB /* View */,
+				E2311BC024C4B362001531AB /* Controller */,
+				E239679724C47CAA006D59EC /* Assets.xcassets */,
+				E2CC654124C5D537004F2EEE /* correctSoundMotMystere.wav */,
+				E239679924C47CAA006D59EC /* LaunchScreen.storyboard */,
+				E239679C24C47CAA006D59EC /* Info.plist */,
+				E2311BB824C4ABDD001531AB /* GoogleService-Info.plist */,
+			);
+			path = MotMystere;
+			sourceTree = "<group>";
+		};
+		E23967A624C48274006D59EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E23967AA24C482F3006D59EC /* AudioToolbox.framework */,
+				E23967A724C48274006D59EC /* MapKit.framework */,
+				7F89FB6505D17C0E9025BF39 /* Pods_MotMystere.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E239678A24C47CA8006D59EC /* MotMystere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E239679F24C47CAA006D59EC /* Build configuration list for PBXNativeTarget "MotMystere" */;
+			buildPhases = (
+				4D8A3E6438B36E68DBDCC6F3 /* [CP] Check Pods Manifest.lock */,
+				E239678724C47CA8006D59EC /* Sources */,
+				E239678824C47CA8006D59EC /* Frameworks */,
+				E239678924C47CA8006D59EC /* Resources */,
+				FF7741D9785A851C04193C0F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotMystere;
+			productName = MotMystere;
+			productReference = E239678B24C47CA8006D59EC /* MotMystere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E239678324C47CA8006D59EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Lionel Maquet";
+				TargetAttributes = {
+					E239678A24C47CA8006D59EC = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = E239678624C47CA8006D59EC /* Build configuration list for PBXProject "MotMystere" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E239678224C47CA8006D59EC;
+			productRefGroup = E239678C24C47CA8006D59EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E239678A24C47CA8006D59EC /* MotMystere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E239678924C47CA8006D59EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E239679B24C47CAA006D59EC /* LaunchScreen.storyboard in Resources */,
+				E2CC654224C5D537004F2EEE /* correctSoundMotMystere.wav in Resources */,
+				E2311BB924C4ABDD001531AB /* GoogleService-Info.plist in Resources */,
+				E239679824C47CAA006D59EC /* Assets.xcassets in Resources */,
+				E239679624C47CA8006D59EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D8A3E6438B36E68DBDCC6F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotMystere-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7741D9785A851C04193C0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotMystere/Pods-MotMystere-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotMystere/Pods-MotMystere-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MotMystere/Pods-MotMystere-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E239678724C47CA8006D59EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E239679324C47CA8006D59EC /* LoginViewController.swift in Sources */,
+				E239678F24C47CA8006D59EC /* AppDelegate.swift in Sources */,
+				E2CC654424C5E634004F2EEE /* FinalScoreViewController.swift in Sources */,
+				E2311BBB24C4AE20001531AB /* UserManager.swift in Sources */,
+				E239679124C47CA8006D59EC /* SceneDelegate.swift in Sources */,
+				E2CC654624C5E9C2004F2EEE /* GameOptions.swift in Sources */,
+				E2CC654024C5BD93004F2EEE /* ListOfQuestions.swift in Sources */,
+				E2311BC624C59051001531AB /* GameViewController.swift in Sources */,
+				E2311BC224C4B969001531AB /* PickUsernameViewController.swift in Sources */,
+				E2311BC424C58E07001531AB /* PickLevelViewController.swift in Sources */,
+				E2311BBD24C4B2E8001531AB /* SecurityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E239679424C47CA8006D59EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E239679524C47CA8006D59EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E239679924C47CAA006D59EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E239679A24C47CAA006D59EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E239679D24C47CAA006D59EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E239679E24C47CAA006D59EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E23967A024C47CAA006D59EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3E6BA95DB585E58457886C /* Pods-MotMystere.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MotMystere/MotMystereDebug.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7XGL882XZ6;
+				INFOPLIST_FILE = MotMystere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelmaquet.MotMystere3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MotMystereProvProf;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E23967A124C47CAA006D59EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61E1C8EDD2494AF48E54453 /* Pods-MotMystere.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MotMystere/MotMystere.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7XGL882XZ6;
+				INFOPLIST_FILE = MotMystere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelmaquet.MotMystere3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MotMystereProvProf;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E239678624C47CA8006D59EC /* Build configuration list for PBXProject "MotMystere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E239679D24C47CAA006D59EC /* Debug */,
+				E239679E24C47CAA006D59EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E239679F24C47CAA006D59EC /* Build configuration list for PBXNativeTarget "MotMystere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23967A024C47CAA006D59EC /* Debug */,
+				E23967A124C47CAA006D59EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E239678324C47CA8006D59EC /* Project object */;
+}
